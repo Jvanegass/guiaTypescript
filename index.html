@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Typescript</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <h1>Guia Typescript</h1>
+    <div id="header"></div>
+    
+    <div>
+        <button onclick="realizarOperacion('sumar')">Sumar 5 + 3</button>
+        <button onclick="realizarOperacion('restar')">Restar 10 - 4</button>
+        <button onclick="realizarOperacion('multiplicar')">Multiplicar 7 * 6</button>
+        <button onclick="realizarOperacion('dividir')">Dividir 20 / 5</button>
+        <button onclick="realizarOperacion('potencia')">Potencia 2^3</button>
+        <button onclick="realizarOperacion('factorial')">Factorial 5!</button>
+    </div>
+    
+    <div id="result" class="result"></div>
+    <div id="cancion"></div>
+    <div id="empleado"></div>
+    <div id="cuerpo-cuenta">Información de la Cuenta: </div>
+    
+    <h2>Depositar Dinero</h2>
+    <input type="number" id="cantidad-deposito" placeholder="Cantidad a depositar">
+    <button onclick="depositar()">Depositar</button>
+    
+    <h2>Retirar Dinero</h2>
+    <input type="number" id="cantidad-retiro" placeholder="Cantidad a retirar">
+    <button onclick="retirar()">Retirar</button>
+    
+    <script src="guia.js"></script>
+</body>
+</html>
